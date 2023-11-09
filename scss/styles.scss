@@ -1,0 +1,25 @@
+@import './components/general';
+@import './components/main';
+@import './components/header';
+@import './components/article';
+@import './components/aside';
+@import "./components/sectionprods";
+@import "./components/sectioncontact";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body{
+    background-color: $black;
+}
+
+.displayNone{
+    display: none;
+}

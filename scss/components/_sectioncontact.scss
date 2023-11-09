@@ -1,0 +1,15 @@
+.sectionContact{
+    height: 100vh;
+    .isolate{
+        height: 85vh;
+    }
+    .botonContact{
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        color: $white;
+        border: none;
+        font-size: 17px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px $white;
+    }
+}

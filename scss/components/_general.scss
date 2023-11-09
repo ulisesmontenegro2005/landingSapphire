@@ -1,0 +1,13 @@
+$secondary-font-color: #C7C0C0;
+$black: #252525;
+$gray: #6B6868;
+$white: #DCDCDC;
+
+h2,dt,dd,p,h1,li{
+    font-family: 'Poppins', sans-serif;
+    color: $white;
+}
+
+button{
+    cursor: pointer;
+}
