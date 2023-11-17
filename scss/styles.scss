@@ -1,8 +1,6 @@
 @import './components/general';
 @import './components/main';
 @import './components/header';
-@import './components/article';
-@import './components/aside';
 @import "./components/sectionprods";
 @import "./components/sectioncontact";
 
@@ -11,13 +9,13 @@
     padding: 0;
 }
 
-html{
+body{
     scroll-behavior: smooth;
     overflow-y: scroll;
-}
-
-body{
-    background-color: $black;
+    background-image: url(./../../public/imgs/23.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .displayNone{

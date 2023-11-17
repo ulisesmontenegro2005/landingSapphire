@@ -1,15 +1,46 @@
-.sectionContact{
+// footer{
+//     height: 100vh;
+//     .botonContact{
+//         padding: 10px;
+//         font-family: 'Poppins', sans-serif;
+//         color: $white;
+//         border: none;
+//         font-size: 17px;
+//         border-radius: 10px;
+//         box-shadow: 1px 1px 1px $white;
+//     }
+// }
+
+footer{
     height: 100vh;
-    .isolate{
-        height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        width: 100%;
+                padding: 1%;
+                font-weight: bold;
+                word-spacing: normal;
+                line-height: 100%;
+                text-align: center;
+                list-style: none;
+                font-size: 60px;
+                background: $white;
+                background-clip: unset;
+                -webkit-background-clip: text;
+    }
+    p{
+        width: 50%;
+        text-align: center;
     }
     .botonContact{
-        padding: 10px;
-        font-family: 'Poppins', sans-serif;
-        color: $white;
-        border: none;
-        font-size: 17px;
-        border-radius: 10px;
-        box-shadow: 1px 1px 1px $white;
-    }
+                padding: 10px;
+                font-family: 'Poppins', sans-serif;
+                color: $white;
+                border: none;
+                font-size: 17px;
+                border-radius: 10px;
+                box-shadow: 1px 1px 1px $white;
+            }
 }
